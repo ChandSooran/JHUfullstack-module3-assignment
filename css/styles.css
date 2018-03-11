@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+/* Style the company name */
+#company-name {
+	text-align: left;
+	margin-top: -30px;
+	color: black;
+}
+
+/* Navbar */
+.navbar {
+	overflow: hidden;
+	position: static;
+	top: 0;
+	width: 100%;
+	background-color: #FF0000;
+}
+
+/* Style the nav-list */
+#collapsable-nav {
+	width: 100%;
+}
+
+#nav-list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list a {
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	background-color: white;
+}  
+
+#nav-list a:hover {
+	background-color: gray;
+}
+
+#nav-list #Chicken {
+	border-style: solid;
+	border-color: black;
+	border-bottom: 0;
+}
+
+#nav-list #Beef {
+	border-style: solid;
+	border-color: black;
+	border-bottom: 0;
+}
+
+/* Style the section */
+section {
+	border: 1px solid black;
+	font-family: Roboto, sans-serif;
+	font-size: 125%;
+	background-color: #FF0000;
+	color: white;
+}
+
+.row {
+	margin-right: 15px;
+	margin-left: 15px;
+}
