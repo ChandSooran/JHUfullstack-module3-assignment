@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Chand Sooran Assignment 2</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="Container">
+        <div class="navbar-header">
+          
+          <!-- First, insert company name --> 
+          <div id="company-name" class="navbar-brand">
+            <h1>Food, LLC</h1>
+          </div> <!-- End of Navbar Brand div -->
+
+          <!-- Second, set up hamburger -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false" class="visible-xs">
+            <!-- class="navbar-toggle" means it floats to right per Bootstrap -->
+
+            <!-- data-toggle="collapse" means that it is in a collapsed state (i.e. a hamburger) until someone clicks on it, causing menu items to appear, in this case -->
+
+            <!-- aria-expanded="false" is for screen readers (tools for the visually impaired) -->
+
+            <!-- class="visible-xs" means that the hamburger will only be visible on xs screen -->
+
+            <!-- data-target="#collapsable-nav" refers to the div containing the list of the items in the menu to be shown by the hamburger when active -->
+
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> <!-- End of Hamburger button -->
+
+          <!-- Third, add list for hamburger components -->
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right">
+              <li class="active visible-xs"><a id="Chicken" href="#">Chicken</a></li>
+              <li class="active visible-xs"><a id="Beef" href="#">Beef</a></li>
+              <li class="active visible-xs"><a id="Sushi" href="#">Sushi</a></li> 
+            </ul> <!-- End of #nav-list -->
+          </div> <!-- End of collapsable-nav div --> 
+        </div> <!-- End of Navbar Header div -->    
+      </div> <!-- End of Container div -->
+    </nav>
+  </header> <!-- End of Navbar -->
+
+  <h1>Our Menu</h1>
+
+  <div id="main-content" class="container"> 
+    <section class="row">
+      <h2>Chicken</h2>
+      
+      <div id="long-text" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mattis ligula sagittis, hendrerit nibh quis, volutpat ligula. Aliquam erat volutpat. Nullam sit amet erat lacus. Maecenas sollicitudin elementum nulla, ac mollis massa scelerisque non. Curabitur in lobortis tortor, id volutpat erat. Donec non purus id dolor vulputate volutpat nec quis mi. Nulla facilisi.
+
+      Curabitur viverra mollis mauris vel dictum. Nulla sit amet sem et odio malesuada tristique id at quam. Curabitur lacus eros, volutpat quis justo et, porttitor sagittis orci. Nam lacinia sed purus vel placerat. Maecenas vel mauris et magna sagittis malesuada. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur a felis porta, euismod nisl eget, mattis est. Aliquam erat volutpat. Nullam id porttitor libero. Donec ultricies feugiat ligula, congue euismod felis mattis vel. Donec vehicula pellentesque eros, vel condimentum nisi tristique vitae. Duis ac mollis erat.
+
+      Maecenas feugiat nisi at eros gravida mattis. Sed condimentum lorem a auctor vulputate. Praesent scelerisque purus felis, ac posuere dui porta nec. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ornare pretium nisl sit amet venenatis. Aenean dapibus tellus dui, ut tincidunt purus tincidunt congue. Vivamus porta magna vel lorem mollis semper. Morbi aliquet metus quis purus efficitur, sed commodo turpis rutrum. Sed ut diam ac massa sagittis blandit eget et lacus. Quisque at fringilla nisi, eu volutpat ipsum. Ut malesuada aliquet diam in sagittis. Vestibulum rutrum tellus porttitor risus rhoncus, vitae luctus elit euismod. Nam eget sem vel quam lacinia fermentum. Duis fringilla varius felis id sollicitudin. Donec sed vestibulum nisl. Nunc in dui tristique, laoreet orci nec, pellentesque augue.
+
+      Donec imperdiet vestibulum dui vitae iaculis. Nunc sit amet justo posuere, convallis lacus eu, porttitor leo. Cras ac suscipit odio. Aliquam bibendum dictum elit, sit amet rutrum est accumsan in. In augue ante, sagittis non lectus sed, feugiat vulputate leo. Sed varius laoreet lorem ac convallis. Cras id tempus justo, ac laoreet tellus. Nunc eget rhoncus justo. Sed augue velit, iaculis in urna egestas, volutpat rutrum ligula. Nullam at fermentum mauris. Praesent fermentum tortor id turpis faucibus vulputate. Cras sit amet enim sit amet mauris condimentum ullamcorper et et nulla. Integer et libero quis tellus tincidunt ultricies vitae sit amet nisl. Vestibulum tristique mollis sodales. Donec volutpat maximus laoreet.
+
+      Fusce rhoncus ultrices elit porta dapibus. Maecenas augue purus, aliquam ut diam eget, luctus posuere libero. Sed scelerisque velit semper ipsum rutrum, at finibus dui lacinia. Mauris aliquam luctus tellus non consectetur. Suspendisse at tincidunt eros, id posuere purus. Maecenas imperdiet leo sed elit semper malesuada. Aliquam vitae arcu nec augue rhoncus dignissim nec vitae augue. Nulla blandit neque sed ultricies scelerisque. Phasellus vel ante ultrices, fermentum quam a, ornare justo. Morbi a justo bibendum, egestas felis quis, auctor ipsum. Nunc placerat tellus lacus, in malesuada massa tristique a. Curabitur in leo sollicitudin ipsum hendrerit imperdiet.
+
+      Duis sit amet lacinia ante. Proin viverra turpis sit amet placerat dignissim. Proin eu rutrum quam. Suspendisse potenti. Suspendisse elementum interdum enim, vitae pharetra turpis mattis eget. Fusce sit amet pulvinar tortor. Proin risus nisi, mollis et leo sit amet, hendrerit laoreet augue. Quisque eget arcu libero. Maecenas aliquet sem eget enim consequat, a ornare ligula sollicitudin. Ut vestibulum sodales ipsum sit amet dignissim. Pellentesque facilisis rhoncus leo, ultrices lobortis quam dictum at.
+
+      Proin sed posuere felis. Nulla scelerisque tempus ultricies. Curabitur justo sapien, malesuada et dolor in, auctor iaculis ligula. Donec molestie nibh arcu, ac ullamcorper libero suscipit non. Ut ac leo eget turpis venenatis ullamcorper. Maecenas vitae tempor massa. Quisque congue aliquam venenatis. Vivamus porttitor volutpat mauris eu posuere. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut imperdiet eros non leo dignissim iaculis. Praesent scelerisque turpis eget tincidunt rhoncus. Vivamus sapien sapien, rutrum eget hendrerit ac, ultrices et ante.
+
+      Integer non pharetra lorem. Suspendisse pulvinar ex ac dolor scelerisque interdum. Etiam vel mollis eros, eu posuere neque. Duis id ligula facilisis, placerat orci vel, lobortis orci. Quisque in mollis ante, ut pharetra ligula. Nulla mattis, neque non finibus facilisis, felis lacus porttitor risus, et porttitor libero erat eu lectus. Vestibulum rhoncus vitae nibh vitae ultricies. Vestibulum vulputate laoreet nunc a consectetur. Duis porttitor dolor urna, a malesuada quam facilisis.</p>
+    </div> <!-- End of long-text div -->
+    </section>
+  </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
+
+</body> <!-- End of Body -->
+</html>
